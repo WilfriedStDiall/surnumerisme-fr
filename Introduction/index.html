@@ -1,0 +1,1809 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+    
+    
+      
+        <title>Introduction - Surnumérisme</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.2a3383ac.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#concept-philosophique" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Surnumérisme" class="md-header__button md-logo" aria-label="Surnumérisme" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Surnumérisme
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Introduction
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Surnumérisme" class="md-nav__button md-logo" aria-label="Surnumérisme" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Surnumérisme
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sommaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sommaire
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Introduction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 3
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 5
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 6
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 7
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 8
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre9/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 9
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre10/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 10
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chapitre11/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 11
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#concept-philosophique" class="md-nav__link">
+    <span class="md-ellipsis">
+      CONCEPT PHILOSOPHIQUE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CONCEPT PHILOSOPHIQUE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#la-bulle-est-commune-et-vitale" class="md-nav__link">
+    <span class="md-ellipsis">
+      La bulle est commune et vitale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prasentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      PrÃ©sentation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyse-de-la-situation-mondiale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Analyse de la situation mondiale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mental-humain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mental humain
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concept-aconomique" class="md-nav__link">
+    <span class="md-ellipsis">
+      CONCEPT Ã‰CONOMIQUE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="CONCEPT Ã‰CONOMIQUE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#collectivisme" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collectivisme
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#libaralisme" class="md-nav__link">
+    <span class="md-ellipsis">
+      LibÃ©ralisme
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#surnumarisme" class="md-nav__link">
+    <span class="md-ellipsis">
+      SURNUMÃ‰RISME
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="SURNUMÃ‰RISME">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#introduction_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Introduction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capital-financier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capital financier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capital-humain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Capital humain
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#longavita" class="md-nav__link">
+    <span class="md-ellipsis">
+      LongÃ©vitÃ©
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-ratribution-du-travail" class="md-nav__link">
+    <span class="md-ellipsis">
+      La RÃ©tribution du travail
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#et-la-sociata" class="md-nav__link">
+    <span class="md-ellipsis">
+      Et la sociÃ©tÃ© ?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Et la sociÃ©tÃ© ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#surnumaraire" class="md-nav__link">
+    <span class="md-ellipsis">
+      SurnumÃ©raire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#capitalsurn" class="md-nav__link">
+    <span class="md-ellipsis">
+      CapitalSurn
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<pre><code>      Skip to content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        SurnumÃ©risme : Une ThÃ©orie MÃ©diane pour une Ã‰conomie Humaine et Globale
+
+
+
+
+
+          Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  var palette=__md_get("__palette");if(palette&amp;&amp;palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Initializing search
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SurnumÃ©risme : Une ThÃ©orie MÃ©diane pour une Ã‰conomie Humaine et Globale
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Accueil
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sommaire
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+Introduction
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Table of contents
+
+
+
+
+
+
+  CONCEPT PHILOSOPHIQUE
+
+
+
+
+
+
+
+
+
+  La bulle est commune et vitale
+
+
+
+
+
+
+
+
+  PrÃ©sentation
+
+
+
+
+
+
+
+
+  Analyse de la situation mondiale
+
+
+
+
+
+
+
+
+  Mental humain
+
+
+
+
+
+
+
+
+
+
+
+
+
+  CONCEPT Ã‰CONOMIQUE
+
+
+
+
+
+
+
+
+
+  Introduction
+
+
+
+
+
+
+
+
+  Collectivisme
+
+
+
+
+
+
+
+
+  LibÃ©ralisme
+
+
+
+
+
+
+
+
+  Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+  SURNUMÃ‰RISME
+
+
+
+
+
+
+
+
+
+  Introduction
+
+
+
+
+
+
+
+
+  Capital financier
+
+
+
+
+
+
+
+
+  Capital humain
+
+
+
+
+
+
+
+
+  LongÃ©vitÃ©
+
+
+
+
+
+
+
+
+  La RÃ©tribution du travail
+
+
+
+
+
+
+
+
+  Et la sociÃ©tÃ© ?
+
+
+
+
+
+
+
+
+
+  SurnumÃ©raire
+
+
+
+
+
+
+
+
+  CapitalSurn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 9
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chapitre 11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  Table of contents
+
+
+
+
+
+
+  CONCEPT PHILOSOPHIQUE
+
+
+
+
+
+
+
+
+
+  La bulle est commune et vitale
+
+
+
+
+
+
+
+
+  PrÃ©sentation
+
+
+
+
+
+
+
+
+  Analyse de la situation mondiale
+
+
+
+
+
+
+
+
+  Mental humain
+
+
+
+
+
+
+
+
+
+
+
+
+
+  CONCEPT Ã‰CONOMIQUE
+
+
+
+
+
+
+
+
+
+  Introduction
+
+
+
+
+
+
+
+
+  Collectivisme
+
+
+
+
+
+
+
+
+  LibÃ©ralisme
+
+
+
+
+
+
+
+
+  Conclusion
+
+
+
+
+
+
+
+
+
+
+
+
+
+  SURNUMÃ‰RISME
+
+
+
+
+
+
+
+
+
+  Introduction
+
+
+
+
+
+
+
+
+  Capital financier
+
+
+
+
+
+
+
+
+  Capital humain
+
+
+
+
+
+
+
+
+  LongÃ©vitÃ©
+
+
+
+
+
+
+
+
+  La RÃ©tribution du travail
+
+
+
+
+
+
+
+
+  Et la sociÃ©tÃ© ?
+
+
+
+
+
+
+
+
+
+  SurnumÃ©raire
+
+
+
+
+
+
+
+
+  CapitalSurn
+</code></pre>
+<h2 id="concept-philosophique">CONCEPT PHILOSOPHIQUE</h2>
+<h3 id="la-bulle-est-commune-et-vitale">La bulle est commune et vitale</h3>
+<p>La planÃ¨te est devenue si fragile et si exiguÃ« qu'elle est assimilable Ã  une bulle de savon menacÃ©e d'Ã©clater Ã  tout moment. Notre devenir est commun et incertain, tant nous sommes menacÃ©s par des pÃ©rils naturels (dÃ©rÃ¨glement climatique), artificiels (pollution), Ã©conomiques et sociaux (paupÃ©risation intolÃ©rable).
+La solution salvatrice sera acceptable par tous et pour tous. Plus de demi-mesure. Comment supporter que prÃ¨s de 60 % de la population planÃ©taire sera bientÃ´t en manque d'eau potable ? Et pourtant, les richesses et les innovations technologiques sont sans commune mesure avec la situation sociale. La bulle se doit de se cristalliser ! </p>
+<h3 id="prasentation">PrÃ©sentation</h3>
+<p>Nous nous savons passibles d'utopisme, mais nous aimerions tant que les riches deviennent toujours plus riches tout en crÃ©ant de nouveaux riches.
+Le nom du SURNUMÃ‰RISME est nouveau pour les dictionnaires et encyclopÃ©dies, et son concept l'est aussi, bien qu'il n'ait rien de rÃ©volutionnaire : c'est une <strong>synergie de concepts anciens</strong>. Un Ã©tat d'esprit rÃ©ceptif.
+Nous osons espÃ©rer que chacun, du plus fruste d'entre nous au plus puissant de ce monde, aura une conscience attentive et une mÃ©tamorphose non attentiste pour un devenir commun plus viable.</p>
+<h3 id="analyse-de-la-situation-mondiale">Analyse de la situation mondiale</h3>
+<p>Ã€ l'aube de ce nouveau millÃ©naire, force est de constater que l'humanitÃ© souffre d'innombrables disparitÃ©s sociales, idÃ©ologiques, religieuses, dont le nÅ“ud gordien est l'Ã©conomie.
+Tant que les inÃ©galitÃ©s iront crescendo entre le Nord et le Sud, entre les citoyens d'un mÃªme pays, et qu'en dÃ©finitive les riches deviennent de plus en plus riches, nous aurons des tensions dont le soubassement est essentiellement Ã©conomique, quelle que soit la facette (immigrations, idÃ©ologies, religions, syndicalisme, rÃ©bellion armÃ©e, etc.) sous laquelle les individus font rejaillir leur dÃ©sespoir.
+BientÃ´t, le monde sera invivable mÃªme pour les riches, obligÃ©s de se cloÃ®trer, et le dÃ©clin de cette merveilleuse civilisation s'annonce inÃ©luctable.
+Et pourtant, le progrÃ¨s scientifique et technologique, jamais Ã©galÃ© dans l'histoire de l'humanitÃ©, augurait tout autre chose. Les moyens humains, les moyens de production, les ressources naturelles sont pratiquement illimitÃ©s, mais l'humanitÃ© se retrouve piÃ©gÃ©e par l'Ã©gocentrisme des humains, car le partage des biens et des savoirs n'est pas naturel chez le genre humain.
+Alors, comment faire ?</p>
+<h3 id="mental-humain">Mental humain</h3>
+<p>Comme stipulÃ©, notre civilisation est suffisamment puissante dans les moyens humains et de production pour assouvir tous les besoins d'ordre matÃ©riel. Cependant, des insuffisances (paupÃ©risation) et des troubles sociÃ©taux nous menacent.</p>
+<ul>
+<li>Pourquoi des chÃ´meurs et mÃªme des SDF dans une proportion anormale dans les pays industrialisÃ©s ?</li>
+<li>Pourquoi des nations entiÃ¨res vÃ©gÃ¨tent dans la misÃ¨re totale, quand bien mÃªme elles possÃ¨dent des ressources miniÃ¨res ou minÃ©raliÃ¨res consÃ©quentes ?</li>
+</ul>
+<p>Et pourtant, l'Ã©conomie n'est pas en rÃ©cession. Le monde avance, et les richesses s'amoncellent. Cependant, l'immense majoritÃ© de la population est en marge de la jouissance de ces biens, car ceux-ci sont concentrÃ©s dans les mains d'une minoritÃ©, malgrÃ© le libÃ©ralisme Ã©conomique et les privatisations.
+Alors, le premier facteur contre-productif chez l'homme, c'est sa relation conflictuelle avec l'autre. L'humanitÃ© a certes progressÃ©, mais le mental humain est restÃ© brumeux dans son refus d'admettre la coexistence et surtout la notion de partage (intÃ©rÃªt mutuel).
+La diffÃ©rence doit Ãªtre perÃ§ue comme une complÃ©mentaritÃ©. La communautÃ© d'intÃ©rÃªts doit s'apparier avec une communion d'esprits. Ã€ dÃ©faut d'une fraternitÃ© sociale, laissons au moins la place Ã  une fraternitÃ© d'intÃ©rÃªts.
+Les philosophes, sociologues, psychiatres, religieux et autres penseurs ou objecteurs de conscience devraient s'atteler Ã  rÃ©concilier l'homme avec lui-mÃªme, car la rÃ©vulsion envers l'autre n'est-elle pas une nÃ©gation de soi-mÃªme ? En tous cas, une Ã©vidence se pose dans le contexte de mondialisation : la survie de tous passe par la rÃ©ciprocitÃ© des intÃ©rÃªts.
+Le genre humain se doit de savoir que dÃ©sormais l'individualisme est fatal.
+Notre postulat est que les riches se doivent de gÃ©nÃ©rer de nouveaux riches et non seulement des richesses Ã  leurs seules fins. </p>
+<h2 id="concept-aconomique">CONCEPT Ã‰CONOMIQUE</h2>
+<h3 id="introduction">Introduction</h3>
+<p>L'humanitÃ© a expÃ©rimentÃ© de grÃ© ou de force diverses thÃ©ories Ã©conomiques et financiÃ¨res qui ont eu des fortunes fort diverses.
+Nous ne nous attarderons pas sur certaines pratiques Ã©conomiques antiques qui ont vÃ©cu, comme le troc, l'esclavage ou le colonialisme, ou encore la bourgeoisie, qui se basaient sur l'asservissement d'une frange par une autre.
+Nous nous intÃ©ressons Ã  des pratiques plus progressistes et plus respectueuses des droits humains. Ne nous laissons point obnubiler par une optique conflictuelle envers telle ou telle entitÃ©. Nous visons une symbiose du genre humain, faisant abstraction des disparitÃ©s ethniques, culturelles, idÃ©ologiques ou religieuses au profit d'un Ã©panouissement matÃ©riel global.
+Enfin, nous nous axerons sur le libÃ©ralisme et le collectivisme, qui sont les principaux systÃ¨mes Ã©conomiques contemporains et qui ont permis certes une Ã©volution Ã©conomique majeure, quand bien mÃªme des insuffisances et tares ont terni ou mÃªme altÃ©rÃ© leurs applications.
+Nous proposons une alternative Ã  ces extrÃªmes.</p>
+<h3 id="collectivisme">Collectivisme</h3>
+<p>Les idÃ©ologies collectivistes ont eu cours avec beaucoup de remous sociaux, car elles se sont souvent illustrÃ©es Ã  travers des rÃ©gimes autoritaires dits rÃ©volutionnaires, qui faisaient table rase de tout le soubassement socioculturel et mÃªme thÃ©ologique des sociÃ©tÃ©s qu'elles prÃ©tendaient rÃ©former en un bloc monolithique sous une seule coupole de fer.
+Ces rÃ©gimes sont en perte de vitesse par Ã©chec social tout autant que par faillite Ã©conomique, car le mental humain trouverait rÃ©barbatif que tous soient mis au plus petit dÃ©nominateur commun.
+Cependant, il faudrait nuancer entre le communisme, qui s'est rÃ©vÃ©lÃ© extrÃ©miste dans l'application de cette vision, et le socialisme, qui est usitÃ© mÃªme dans les sociÃ©tÃ©s occidentales les plus industrialisÃ©es. Ici, il est question de nationaliser certains secteurs jugÃ©s vitaux qui demeurent sous la discrÃ©tion de l'Ã‰tat, et la libre entreprise pour le reste de l'Ã©conomie.
+Sur le plan social, lâ€™uniformisation Ã©conomique s'est rÃ©vÃ©lÃ©e Ãªtre un frein Ã  un Ã©panouissement de l'individu, d'oÃ¹ une implosion du systÃ¨me.
+L'exemple de l'URSS est Ã©difiant. </p>
+<h3 id="libaralisme">LibÃ©ralisme</h3>
+<p>Le libÃ©ralisme a Ã©normÃ©ment marquÃ© la face du monde contemporain et il est trÃ¨s en vogue. Ici, le principe est de favoriser au maximum l'individu dans la rÃ©partition des richesses. Ã€ l'inverse du collectivisme, le bien public est rÃ©duit Ã  sa plus simple expression afin de permettre, par le biais des privatisations partielles ou intÃ©grales, Ã  des acteurs privÃ©s de dÃ©tenir des parts de marchÃ© dans tous les secteurs de l'Ã©conomie. L'Ã‰tat se dÃ©sengage dans des pans entiers de l'Ã©conomie.
+La privatisation favorise l'Ã©mergence d'une classe d'hommes d'affaires qui, par trop, rÃ©gentent le destin de milliers d'individus, qui souvent, pour se protÃ©ger, se constituent en syndicats pour la dÃ©fense de leurs intÃ©rÃªts particuliers. Donc, deux mondes rivaux se cÃ´toient.
+Cependant, que certains aient l'opportunitÃ© de cumuler indÃ©finiment des richesses qu'ils ne sauront jamais ingÃ©rer, la multitude est condamnÃ©e dans une situation sociale prÃ©caire qui perdure.</p>
+<h3 id="conclusion">Conclusion</h3>
+<p>Nous voilÃ  Ã  la croisÃ©e des chemins.
+Le collectivisme a montrÃ© ses limites, car avec la chute de l'Union SoviÃ©tique, la preuve par l'absurde est faite que le manque de partage des biens et des pouvoirs aboutit Ã  une impasse sociale. La Chine entame une mutation vers le libÃ©ralisme sous contrÃ´le, d'oÃ¹ son Ã©panouissement relatif. L'individu doit s'affirmer Ã©conomiquement.
+Alors, le libÃ©ralisme semble Ãªtre la solution, mais les richesses s'amoncelant en des mains restreintes au point que l'on croirait revivre la bourgeoisie, les tensions sociales se font jour et se cristallisent au point que tous les dÃ©Ã§us du siÃ¨cle s'en prennent aux Ã‰tats-Unis, qui sont le summum de cette thÃ©orie.
+Terrorisme, immigrations, rÃ©bellions, grÃ¨ves se manifestent partout au point que la planÃ¨te est devenue instable et infrÃ©quentable.
+Devant l'Ã©parpillement des richesses chez les communistes et la verticalitÃ© des biens chez les capitalistes, il nous faut trouver un autre systÃ¨me qui gÃ©nÃ¨re la richesse et la distribue Ã  un maximum de gens dans des paramÃ¨tres de temps humainement acceptables.
+En dÃ©finitive, nous retiendrons de bien dans le collectivisme : l'instinct grÃ©gaire et paternaliste de rÃ©genter la communautÃ© des biens au profit de tous et de chacun ; du libÃ©ralisme : lâ€™homme est par son subconscient individualiste une machine qui ne donne de son meilleur que dans la matÃ©rialisation de lâ€™intÃ©rÃªt personnel.
+Et surtout une carence notoire : nulle part lâ€™intÃ©rÃªt communautaire et individuel ne se joignent. En fait, le libÃ©ralisme substitue un intÃ©rÃªt supranational Ã  celui dâ€™un groupe restreint dâ€™individus.
+Donc, comment concilier les deux ?
+La sociÃ©tÃ© est actuellement triphasÃ©e :
+- Les industriels : les nantis (nouveaux bourgeois).
+- Les prolÃ©taires : dÃ©munis et en marge de tout.
+- Et une frange intermÃ©diaire de cadres, qui sont les vÃ©ritables moteurs cÃ©rÃ©braux de la croissance, mais qui sont lÃ©sÃ©s au partage.
+Nous retiendrons quâ€™aucun systÃ¨me Ã©conomique ne crÃ©e une synergie entre toutes les composantes. Il existe une cassure sociÃ©tale entre les extrÃªmes et une inadÃ©quation fatale entre les vrais crÃ©ateurs des richesses et une rÃ©partition Ã©quilibrÃ©e des biens. </p>
+<h1 id="surnumarisme">SURNUMÃ‰RISME</h1>
+<h2 id="introduction_1">Introduction</h2>
+<p>Que la richesse crÃ©Ã©e appartienne Ã  l'Ã‰tat ou Ã  un individu ; il est proprement inconcevable que la cheville ouvriÃ¨re de cette derniÃ¨re n'en soit pas en partie propriÃ©taire au bout d'un temps Ã  dÃ©terminer.
+L'employÃ© a son salaire, qu'il soit manÅ“uvre ou ingÃ©nieur, mais sans plus. Qu'il fasse engranger des milliards ne changera rien Ã  sa rÃ©tribution jusqu'Ã  ce que mort s'ensuive.
+Le patron est de plus en plus maÃ®tre des biens, quand bien mÃªme son empire serait planÃ©taire, sans qu'un centime en pourcentage ou en nature ne revienne Ã  quiconque aurait concouru Ã  la matÃ©rialisation du capital.
+Donc, le capital financier est plus opportun que le capital humain. VoilÃ  le pÃ©chÃ© originel de notre civilisation.
+Quelque part, il me semble que c'est une forme d'esclavagisme du 21e siÃ¨cle.</p>
+<h2 id="capital-financier">Capital financier</h2>
+<p>Les fondements de la richesse importent peu parfois.
+Ainsi, Ã  un moment donnÃ©, peut-on dire ce qui importe le plus entre celui qui possÃ¨de les moyens financiers et celui qui peut les faire fructifier ?
+Les moyens financiers d'un individu peuvent avoir une origine diverse (par labeur, par hÃ©ritage, par dÃ©tournement, par chance, etc.).
+Le dÃ©tenteur peut les faire fructifier par lui-mÃªme, mais ce qui est sÃ»r, il aura besoin d'un nombre substantiel de moyens humains pour les dÃ©cupler au centuple. Et parmi ces moyens humains, il existe des individus qui, par leurs hautes qualifications, sont dÃ©terminants.
+Cependant, que le capital financier tire son dÃ©terminisme et sa lÃ©gitimitÃ© du passÃ© parfois brumeux ; le capital humain est une valeur projetÃ©e vers un avenir clair et concret.
+Encore une fois, qui me dira entre les deux faces complÃ©mentaires du module vecteur Ã©conomique lequel prime ?</p>
+<h2 id="capital-humain">Capital humain</h2>
+<p>La valeur de l'homme comme promoteur de la richesse doit primer.
+Rien que l'instinct de survie ou l'orgueil humain nous amÃ¨nerait Ã  accorder la prÃ©Ã©minence Ã  lâ€™homme par rapport au matÃ©riel, au financier ou encore Ã  la matiÃ¨re inerte. La thÃ©orie du champ : la valeur du champ (la production) dÃ©pend-elle du seul propriÃ©taire terrien ou de l'ensemble des mains valides qui labourent ? Et en plus, si nous considÃ©rons l'agronome qui, par apport scientifique et technique, multiplie la production, que dirions-nous ?
+Ainsi donc, toute notre philosophie du monde du travail se doit de muer vers une reconsidÃ©ration de la valeur humaine par rapport Ã  la valeur matÃ©rielle. Un rÃ©Ã©quilibrage se doit de s'amorcer afin que la richesse cesse de seulement s'auto-gÃ©nÃ©rer, mais qu'elle rÃ©compense aussi son promoteur.
+Lâ€™homme doit Ãªtre le nouveau pilier de l'Ã©conomie.</p>
+<h2 id="longavita">LongÃ©vitÃ©</h2>
+<p>La valeur humaine se doit d'Ãªtre rÃ©compensÃ©e en temps rÃ©el. Pour un cadre supÃ©rieur qui, aprÃ¨s une ou deux dÃ©cennies passÃ©es Ã  servir une entreprise, le problÃ¨me de la longÃ©vitÃ© se pose :
+- Pendant le temps passÃ© Ã  l'entreprise, cette derniÃ¨re a engrangÃ© des sommes qui sont sans commune mesure avec la maigre pension de retraite rÃ©servÃ©e au cadre.
+- Ce cadre est une ressource inestimable qui, au lieu de sâ€™Ã©panouir et fructifier sa propre entreprise et par lÃ  mÃªme recruter d'autres cadres et subalternes, se retrouve lui et sa cellule familiale dans une prÃ©caritÃ©. Ses enfants se doivent de reprendre le cycle Ã  zÃ©ro au lieu d'avoir Ã  construire Ã  partir de ce que leur pÃ¨re a initiÃ©. Le flambeau est trop souvent Ã©teint.
+- Donc, une course contre la montre nous est imposÃ©e si nous voulons qu'une proportion respectable de cadres devienne des entrepreneurs promoteurs.
+Une institutionnalisation d'un systÃ¨me Ã©conomique spÃ©cifique doit s'instaurer dans les esprits, puis dans les mÅ“urs.</p>
+<h2 id="la-ratribution-du-travail">La RÃ©tribution du travail</h2>
+<p>Un travail vraiment porteur doit Ãªtre rÃ©tribuÃ© au-delÃ  du salaire, qui est une notion mÃ©diÃ©vale de subsistance.
+Afin de permettre une multiplication de riches et non seulement une multiplication de richesses, il nous faut rÃ©flÃ©chir Ã  un systÃ¨me qui permet aux cadres supÃ©rieurs, en fonction d'un barÃ¨me (Surn), de percevoir indirectement de leurs efforts passÃ©s un apport financier consistant, permettant de nouvelles initiatives.
+ConcrÃ¨tement, pour une entitÃ© commerciale donnÃ©e, il faudrait qu'elle reverse une cotisation substantielle (SurnumÃ©raire) dans une institution bancaire spÃ©ciale (SurnBank) au profit de ses cadres supÃ©rieurs. Bien sÃ»r, des impÃ´ts comme la TVA iront en baisse, et certaines disparaÃ®tront, car il ne faut pas rÃªver : les Ã©quilibres macro-Ã©conomiques sont des impÃ©ratifs dont nul ne peut se soustraire.
+TrÃ¨s indirectement, le cadre se muera en entrepreneur aussi. Le gain social sâ€™avÃ¨re incommensurable.</p>
+<h2 id="et-la-sociata">Et la sociÃ©tÃ© ?</h2>
+<p>Que lâ€™on ne me dise pas les impÃ´ts ! Ils sont les suppÃ´ts de lâ€™Ã‰tat qui suce au-delÃ  du supportable. Et pire : l'Ã‰tat est antinomique Ã  la sociÃ©tÃ©. Souvent, les institutions Ã©tatiques, loin de leurs objectifs de synergie sociale, exploitent les entreprises et les individus.
+Lâ€™Ã‰tat est aux mains d'une minoritÃ© fortement politisÃ©e qui tombe dans les travers des classes dominatrices.
+Ici aussi, la nouvelle philosophie s'Ã©panchera plus sur la sociÃ©tÃ© que sur lâ€™Ã‰tat. Lâ€™Ã‰tat sera au service de la sociÃ©tÃ© et non le contraire, qui perpÃ©tue une exploitation de la masse par une minoritÃ©.</p>
+<h3 id="surnumaraire">SurnumÃ©raire</h3>
+<p>Par le surnumÃ©raire, nous projetons d'Ã©quilibrer l'Ã©quation prÃ©cÃ©dente.
+Cette nouvelle thÃ©orie Ã©conomique se propose d'Ã©largir la base de la richesse relativement aux individus porteurs (vecteurs), car les systÃ¨mes dÃ©jÃ  usitÃ©s crÃ©ent la dynamique sans pour autant se prÃ©occuper de la rÃ©partition des biens.
+Ainsi, les biens seront rÃ©partis en partie Ã  leurs promoteurs vÃ©ritables et non exclusivement Ã  leurs initiateurs.
+Pour cela, il faut que l'humanitÃ© fasse un bond Ã©volutif de plusieurs millions d'annÃ©es dans le positivisme mental : "IntÃ©grer autrui comme soi". VoilÃ  le plus difficile. Comment transcender toutes les diffÃ©rences et disparitÃ©s socioculturelles, religieuses et autres ? En fait, il suffit d'admettre l'autre dans toute sa diffÃ©rence tout en ayant Ã  l'esprit la seule communion d'intÃ©rÃªts. Chacun doit accepter l'Ã©panouissement Ã©conomique de l'autre, car il est le conditionnel absolu au sien. La prospÃ©ritÃ© est pour tous sur cette terre ou bien pour personne.
+Qui a failli en cela si ce n'est les nations dÃ©veloppÃ©es qui amassent tout et cristallisent ainsi toutes les rancunes ? Les grands doivent donner l'exemple du partage. Sinon, vers quels dÃ©bouchÃ©s ou quels partenaires Ã©conomiques s'adresseront les pays industrialisÃ©s ? Leur Ã©goÃ¯sme se retourne contre leurs intÃ©rÃªts. MÃªme le dialogue politique ou la corrÃ©lation des sociÃ©tÃ©s devient impossible. L'intolÃ©rance et la confrontation entre nations se posent.
+Les ressentiments et frictions multiples intra-nationales ou internationales s'expliquent par un horizon Ã©conomique Ã©troit pour bon nombre de nations, sociÃ©tÃ©s et individus. Pacifier revient Ã  laisser vivre et vivre dÃ©cemment.
+Et pourtant, les richesses dans le monde ne font que croÃ®tre. Elles finissent dans les mains de riches ou d'Ã‰tats sans pour autant profiter Ã  la masse sociale. Il importe que soit mis en place un systÃ¨me plus Ã  mÃªme de rÃ©partir les richesses gÃ©nÃ©rÃ©es. Il faut des critÃ¨res novateurs Ã  mÃªme de faire l'Ã©quilibre social : Ã  savoir comment ponctionner les riches au profit des pauvres sans ressentiments majeurs ? Il faut trouver des agents intermÃ©diaires qui feront la jonction des deux mondes. D'oÃ¹ l'idÃ©e de favoriser les cadres supÃ©rieurs des entreprises pour leur permettre, dans un dÃ©lai de temps acceptable, de se muer en nouveaux entrepreneurs gÃ©nÃ©rateurs d'emploi au profit de la masse.
+Au lieu que les entreprises soient ponctionnÃ©es par les systÃ¨mes Ã©tatiques, il sera mis en place un systÃ¨me financier pour cette classe intermÃ©diaire. Ici naÃ®t le SurnumÃ©risme : un systÃ¨me qui gÃ©nÃ¨re du travail en partage. Le travail se rÃ©gÃ©nÃ¨re. Une hydre.
+Le partage se fait de lui-mÃªme par le travail. Nul besoin dâ€™instituer des impÃ´ts pour Ã©laborer des programmes sociaux de replÃ¢trage.
+<strong>SURNUMÃ‰RISME</strong> : thÃ©orie Ã©conomique instituant une double rÃ©munÃ©ration pour les catÃ©gories de travailleurs jugÃ©s capables de promouvoir des initiatives porteuses de nouveaux modules d'entreprises.
+La double rÃ©munÃ©ration est :
+- Le salaire,
+- Plus le CapitalSurn.</p>
+<h3 id="capitalsurn">CapitalSurn</h3>
+<p>Le CapitalSurn est la capitalisation du travail actif du cadre, directement ponctionnÃ© sur le revenu de lâ€™entreprise. Nous aurons toute l'opportunitÃ© de dÃ©velopper et quantifier ce nouveau outil (impÃ´t) qui sera mis Ã  la disposition des autoritÃ©s Ã©tatiques et multinationales afin d'Ã©quilibrer les sociÃ©tÃ©s humaines, de plus en plus en perdition sociale. Nous le constatons avec un triptyque de maux : la guerre, l'immigration ou la prÃ©caritÃ©, qui touchent l'une ou l'autre partie du monde. </p>
+<p>var target=document.getElementById(location.hash.slice(1));target&amp;&amp;target.name&amp;&amp;(target.checked=target.name.startsWith("__tabbed_"))</p>
+<pre><code>Made with
+
+  Material for MkDocs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {"base": "..", "features": ["navigation.instant", "navigation.sections", "content.tabs"], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
