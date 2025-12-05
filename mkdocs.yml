@@ -1,9 +1,10 @@
-site_name: SURNUMERISME
+site_name: Surnumérisme
+site_url: https://surnumerisme.org
 
 nav:
+  - Accueil: index.md
   - Sommaire: sommaire.md
   - Introduction: introduction.md
-  - Index: index.md
   - Chapitre 1: chapitre1.md
   - Chapitre 2: chapitre2.md
   - Chapitre 3: chapitre3.md
@@ -15,10 +16,11 @@ nav:
   - Chapitre 9: chapitre9.md
   - Chapitre 10: chapitre10.md
   - Chapitre 11: chapitre11.md
+  - Lexique: lexique.md
+  - Annexe technique: annexe_technique.md
 
 theme:
   name: material
   palette:
     primary: green
     accent: light green
-
