@@ -1,0 +1,53 @@
+:root {
+  --md-primary-fg-color: #2e7d32;
+  --md-primary-fg-color--light: #4caf50;
+  --md-primary-fg-color--dark: #1b5e20;
+  --md-accent-fg-color: #2e7d32;
+  --md-text-font-size: 18px;
+}
+
+.md-typeset {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #111;
+}
+
+.md-content {
+  max-width: 1100px;
+}
+
+.md-typeset h1, 
+.md-typeset h2, 
+.md-typeset h3 {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.md-typeset a {
+  color: #2e7d32;
+  font-weight: 600;
+}
+.md-typeset a:hover {
+  color: #1b5e20;
+  text-decoration: underline;
+}
+
+.md-button {
+  background-color: #2e7d32;
+  color: #fff;
+  font-weight: bold;
+}
+.md-button:hover {
+  background-color: #1b5e20;
+}
+
+.md-header, 
+.md-nav {
+  background-color: #2e7d32;
+  color: #fff;
+}
+
+.md-footer {
+  background-color: #1b5e20;
+  color: #fff;
+}
